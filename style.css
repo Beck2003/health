@@ -1,0 +1,154 @@
+body, h1, h3, h4, p, span, ul, li, nav, a, div, img {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("images/old_moon.png");
+}
+
+h1.logo{
+    line-height: 80px;
+    margin-left: 40px;
+}
+
+#Mi {
+    color: rgb(238, 40, 40);
+}
+
+#Health {
+    color: rgb(120, 203, 120);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+.nav-links a:last-child {
+    margin-right: 40px;
+}
+
+div.container {
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+div#about {
+    margin: 50px 50px 0 50px;
+    width: 25%;
+}
+
+#about h1 {
+    font-size: 50px;
+}
+
+#about h3 {
+    margin-top: 20px;
+}
+#about p {
+    margin-top: 20px;
+}
+div.pics {
+    position: relative;
+    margin-right: 15px;
+}
+
+img {
+    justify-content: center;
+    height: 500px;
+    width: 250px;
+    object-fit: cover;
+    margin-top: 50px;
+}
+
+h1, p, a, h3, h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fresh {
+    position: absolute;
+    bottom: 43px;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+    width: 40%;
+    text-align: center;
+}
+
+.breakfast {
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+    background-color: rgb(161, 213, 161);
+    padding: 10px;
+    width: 45%;
+    text-align: right;
+}
+
+.pic2 {
+    position: relative;
+    margin-right: 15px;
+}
+
+.sweet {
+    position: absolute;
+    bottom: 43px;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+    width: 40%;
+    text-align: center;
+}
+
+.lunch {
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+    background-color: rgb(161, 213, 161);
+    padding: 10px;
+    width: 45%;
+    text-align: right;
+}
+
+.pic3 {
+    position: relative;
+}
+
+.delicious {
+    position: absolute;
+    bottom: 43px;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+    width: 40%;
+    text-align: center;
+}
+
+.dinner {
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+    background-color: rgb(161, 213, 161);
+    padding: 10px;
+    width: 45%;
+    text-align: right;
+}
