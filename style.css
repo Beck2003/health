@@ -8,7 +8,7 @@ body, h1, h3, h4, p, span, ul, li, nav, a, div, img {
 }
 
 body {
-    background-image: url("images/old_moon.png");
+    background-image: url("old_moon.png");
 }
 
 h1.logo{
